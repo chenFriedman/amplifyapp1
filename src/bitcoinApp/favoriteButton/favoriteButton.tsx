@@ -8,9 +8,9 @@ export default function FavoriteButton (Props : props) {
 
   return (
     <Tooltip title={favoriteaTooltip}>
-      <IconButton  size="large">
-          {Props.isFavorite && <StarIcon onClick={()=>{Props.updateIsFavorite()}} />}
-          {!Props.isFavorite && <StarOutlineIcon onClick={()=>{Props.updateIsFavorite()}} />}
+      <IconButton onClick={()=>{Props.updateIsFavorite()}} size="large">
+          {Props.isFavorite && <StarIcon />}
+          {!Props.isFavorite && <StarOutlineIcon />}
       </IconButton>
   </Tooltip>
   );

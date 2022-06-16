@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@aws-amplify/cli": "^8.5.1",
+    "@aws-amplify/interactions": "^4.0.42",
+    "@aws-amplify/ui-react": "^2.19.1",
     "@date-io/date-fns": "^2.14.0",
     "@emotion/react": "^11.9.0",
     "@emotion/styled": "^11.8.1",
@@ -16,6 +19,8 @@
     "@types/node": "^16.11.36",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.5",
+    "aws-amplify": "^4.3.24",
+    "axios": "^0.27.2",
     "chart.js": "^3.8.0",
     "date-fns": "^2.28.0",
     "react": "^18.1.0",
